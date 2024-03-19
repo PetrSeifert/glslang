@@ -12,6 +12,7 @@ project "Glslang"
 		"SPIRV/**.cpp",
 		"glslang/**.h",
 		"glslang/**.cpp",
+		"**.h.tmpl",
 	}
 
 	includedirs
