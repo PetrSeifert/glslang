@@ -8,8 +8,10 @@ project "Glslang"
 
 	files
 	{
-		"**.h",
-		"**.cpp",
+		"SPIRV/**.h",
+		"SPIRV/**.cpp",
+		"glslang/**.h",
+		"glslang/**.cpp",
 	}
 
 	includedirs
