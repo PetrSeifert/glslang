@@ -12,6 +12,11 @@ project "Glslang"
 		"**.cpp",
 	}
 
+	includedirs
+	{
+		".",
+	}
+
 	filter "system:windows"
 		systemversion "latest"
 		cppdialect "C++20"
