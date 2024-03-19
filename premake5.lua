@@ -8,10 +8,8 @@ project "Glslang"
 
 	files
 	{
-		"glslang/**.h",
-		"glslang/**.cpp",
-		"SPIRV/**.cpp",
-		"SPIRV/**.h",
+		"**.h",
+		"**.cpp",
 	}
 
 	filter "system:windows"
